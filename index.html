@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Muruganand - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Muruganand
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendation">Recommendation</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://static.vecteezy.com/system/resources/previews/021/516/587/original/smiling-boy-working-on-laptop-with-coffee-cup-and-plant-concept-of-online-education-or-freelace-work-illustration-vector.jpg" width="300px" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, Muruganand ! <img src="https://i.pinimg.com/originals/d8/32/10/d83210d052f3e7e4a7e78bfd16a6f23e.png" width="60px"/>
+          </h1>
+          <p>
+            I am a skilled web developer proficient in front-end and back-end development, with expertise in HTML, CSS, JavaScript, and Python. <br> I write clean code, troubleshoot issues, and stay updated with the latest web development trends.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 month experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 month experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png">
+          <h6>CSS3</h6>
+          <p>1 month experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/react.png">
+          <h6>React.js</h6>
+          <p>1 month experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/node.png">
+          <h6>Node.js</h6>
+          <p>1 month experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png">
+          <h6>Java</h6>
+          <p>1 month experience</p>
+        </div>
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Newsletter Signup Form:
+            </h3>
+            <ul>
+              <li>Designed and implemented a responsive newsletter signup form using HTML and CSS. Users can enter their email address and subscribe to receive regular updates from the website</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Image Slider:</h3>
+            <ul>
+              <li>Developed a lightweight image slider using HTML, CSS, and JavaScript. The slider displays a series of images that automatically transition at a set interval, providing a visually appealing and interactive element to a webpage.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Contact Form Validation:</h3>
+            <ul>
+              <li>Implemented form validation using JavaScript for a contact form on a website. The validation ensures that all required fields are filled out correctly before submitting the form, reducing errors and improving user experience.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jane is a quick learner, excellent team player, and shows great initiative. 
+          She has the potential to lead a team with her curious mind and ability to grasp key concepts in web development.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jane has been an awesome experience. 
+          She is highly knowledgeable, detail-oriented, and always goes the extra mile to ensure everything is done right.
+          I would definitely choose to work with her again for future projects.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jane is a committed and knowledgeable resource in web development. Her expertise and in-depth domain knowledge make her an asset to any organization.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for the recommendation ! </h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
